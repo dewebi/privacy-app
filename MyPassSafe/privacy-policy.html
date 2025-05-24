@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated:</strong> 05/26/2025</p>
+    <p>This <b>MyPassSafe</b> application is developed with privacy as a top priority. Below is an explanation of how the app handles your data.</p>
+
+    <h2>1. Data Collection</h2>
+    <p>The app does not collect, transmit, or store any personal data. All actions and data remain strictly on your device.</p>
+
+    <h2>2. Data Storage</h2>
+    <ul>
+        <li>All saved passwords and the master password are stored locally on the device.</li>
+        <li>Data is stored in an encrypted SQLite database using cryptographic algorithms via the <code>crypto-js</code> library.</li>
+        <li>The app does not connect to the internet, use cloud storage, or interact with any external servers.</li>
+    </ul>
+
+    <h2>3. Security</h2>
+    <ul>
+        <li>Data security depends on the strength and confidentiality of your master password. The developer has no access to the master password and cannot help recover it.</li>
+        <li>The user is responsible for securely handling any exported data files.</li>
+    </ul>
+
+    <h2>4. Third-Party Libraries</h2>
+    <p>The app only uses open-source libraries that are included locally:</p>
+    <ul>
+        <li><code>sql-wasm.sql</code>, <code>sql-wasm.wasm</code> — for SQLite support.</li>
+        <li><code>crypto-js.min.js</code> — for data encryption.</li>
+    </ul>
+    <p>No data is ever transmitted online.</p>
+</body>
+</html>
